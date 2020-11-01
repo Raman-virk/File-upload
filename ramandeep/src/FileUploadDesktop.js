@@ -39,7 +39,7 @@ export default class extends Component {
         <label htmlFor='fileInput' style={{ width: 100, height: 100, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>Files...</label>
         <input id='fileInput' type='file' multiple style={{ opacity: 0, pointerEvents: 'none' }} onChange={this.handleChange} />
       </div>
-      { data && ConfirmAndSave(data)}
+      {data && ConfirmAndSave(data)}
     </>
   }
 }
